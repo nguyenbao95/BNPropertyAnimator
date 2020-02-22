@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE244C872400E9E700EC1E87 /* CALayer+BNPropertyAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BE244C742400E9E700EC1E87 /* CALayer+BNPropertyAnimator.m */; };
+		BE244C882400E9E700EC1E87 /* BNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BE244C752400E9E700EC1E87 /* BNUtils.m */; };
+		BE244C892400E9E700EC1E87 /* BNTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = BE244C762400E9E700EC1E87 /* BNTransaction.m */; };
+		BE244C8A2400E9E700EC1E87 /* BNTimingParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = BE244C782400E9E700EC1E87 /* BNTimingParameters.m */; };
+		BE244C8B2400E9E700EC1E87 /* BNAnimationAction.m in Sources */ = {isa = PBXBuildFile; fileRef = BE244C7C2400E9E700EC1E87 /* BNAnimationAction.m */; };
+		BE244C8C2400E9E700EC1E87 /* BNAnimationActionGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = BE244C7E2400E9E700EC1E87 /* BNAnimationActionGroup.m */; };
+		BE244C8D2400E9E700EC1E87 /* BNAdditiveAnimationAction.m in Sources */ = {isa = PBXBuildFile; fileRef = BE244C7F2400E9E700EC1E87 /* BNAdditiveAnimationAction.m */; };
+		BE244C8E2400E9E700EC1E87 /* BNPropertyAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BE244C832400E9E700EC1E87 /* BNPropertyAnimator.m */; };
+		BE53ED692400E97900445FC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE53ED682400E97900445FC2 /* AppDelegate.m */; };
+		BE53ED6C2400E97900445FC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE53ED6B2400E97900445FC2 /* ViewController.m */; };
+		BE53ED6F2400E97900445FC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE53ED6D2400E97900445FC2 /* Main.storyboard */; };
+		BE53ED712400E97A00445FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE53ED702400E97A00445FC2 /* Assets.xcassets */; };
+		BE53ED742400E97A00445FC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE53ED722400E97A00445FC2 /* LaunchScreen.storyboard */; };
+		BE53ED772400E97A00445FC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE53ED762400E97A00445FC2 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE244C732400E9E700EC1E87 /* BNPropertyAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPropertyAnimator.h; sourceTree = "<group>"; };
+		BE244C742400E9E700EC1E87 /* CALayer+BNPropertyAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+BNPropertyAnimator.m"; sourceTree = "<group>"; };
+		BE244C752400E9E700EC1E87 /* BNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNUtils.m; sourceTree = "<group>"; };
+		BE244C762400E9E700EC1E87 /* BNTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNTransaction.m; sourceTree = "<group>"; };
+		BE244C782400E9E700EC1E87 /* BNTimingParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNTimingParameters.m; sourceTree = "<group>"; };
+		BE244C792400E9E700EC1E87 /* BNTimingCurveProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNTimingCurveProvider.h; sourceTree = "<group>"; };
+		BE244C7A2400E9E700EC1E87 /* BNTimingParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNTimingParameters.h; sourceTree = "<group>"; };
+		BE244C7C2400E9E700EC1E87 /* BNAnimationAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNAnimationAction.m; sourceTree = "<group>"; };
+		BE244C7D2400E9E700EC1E87 /* BNAdditiveAnimationAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNAdditiveAnimationAction.h; sourceTree = "<group>"; };
+		BE244C7E2400E9E700EC1E87 /* BNAnimationActionGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNAnimationActionGroup.m; sourceTree = "<group>"; };
+		BE244C7F2400E9E700EC1E87 /* BNAdditiveAnimationAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNAdditiveAnimationAction.m; sourceTree = "<group>"; };
+		BE244C802400E9E700EC1E87 /* BNAnimationAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNAnimationAction.h; sourceTree = "<group>"; };
+		BE244C812400E9E700EC1E87 /* BNAnimationActionGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNAnimationActionGroup.h; sourceTree = "<group>"; };
+		BE244C822400E9E700EC1E87 /* CALayer+BNPropertyAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+BNPropertyAnimator.h"; sourceTree = "<group>"; };
+		BE244C832400E9E700EC1E87 /* BNPropertyAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPropertyAnimator.m; sourceTree = "<group>"; };
+		BE244C842400E9E700EC1E87 /* BNMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNMacros.h; sourceTree = "<group>"; };
+		BE244C852400E9E700EC1E87 /* BNTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNTransaction.h; sourceTree = "<group>"; };
+		BE244C862400E9E700EC1E87 /* BNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNUtils.h; sourceTree = "<group>"; };
+		BE53ED642400E97900445FC2 /* BNPropertyAnimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BNPropertyAnimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE53ED672400E97900445FC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE53ED682400E97900445FC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE53ED6A2400E97900445FC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE53ED6B2400E97900445FC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE53ED6E2400E97900445FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE53ED702400E97A00445FC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE53ED732400E97A00445FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE53ED752400E97A00445FC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE53ED762400E97A00445FC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE53ED612400E97900445FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE244C722400E9E700EC1E87 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BE244C772400E9E700EC1E87 /* TimingParameters */,
+				BE244C7B2400E9E700EC1E87 /* AnimationActions */,
+				BE244C842400E9E700EC1E87 /* BNMacros.h */,
+				BE244C862400E9E700EC1E87 /* BNUtils.h */,
+				BE244C752400E9E700EC1E87 /* BNUtils.m */,
+				BE244C852400E9E700EC1E87 /* BNTransaction.h */,
+				BE244C762400E9E700EC1E87 /* BNTransaction.m */,
+				BE244C732400E9E700EC1E87 /* BNPropertyAnimator.h */,
+				BE244C832400E9E700EC1E87 /* BNPropertyAnimator.m */,
+				BE244C822400E9E700EC1E87 /* CALayer+BNPropertyAnimator.h */,
+				BE244C742400E9E700EC1E87 /* CALayer+BNPropertyAnimator.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BE244C772400E9E700EC1E87 /* TimingParameters */ = {
+			isa = PBXGroup;
+			children = (
+				BE244C782400E9E700EC1E87 /* BNTimingParameters.m */,
+				BE244C792400E9E700EC1E87 /* BNTimingCurveProvider.h */,
+				BE244C7A2400E9E700EC1E87 /* BNTimingParameters.h */,
+			);
+			path = TimingParameters;
+			sourceTree = "<group>";
+		};
+		BE244C7B2400E9E700EC1E87 /* AnimationActions */ = {
+			isa = PBXGroup;
+			children = (
+				BE244C802400E9E700EC1E87 /* BNAnimationAction.h */,
+				BE244C7C2400E9E700EC1E87 /* BNAnimationAction.m */,
+				BE244C7D2400E9E700EC1E87 /* BNAdditiveAnimationAction.h */,
+				BE244C7F2400E9E700EC1E87 /* BNAdditiveAnimationAction.m */,
+				BE244C812400E9E700EC1E87 /* BNAnimationActionGroup.h */,
+				BE244C7E2400E9E700EC1E87 /* BNAnimationActionGroup.m */,
+			);
+			path = AnimationActions;
+			sourceTree = "<group>";
+		};
+		BE53ED5B2400E97900445FC2 = {
+			isa = PBXGroup;
+			children = (
+				BE53ED662400E97900445FC2 /* BNPropertyAnimator */,
+				BE53ED652400E97900445FC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE53ED652400E97900445FC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE53ED642400E97900445FC2 /* BNPropertyAnimator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE53ED662400E97900445FC2 /* BNPropertyAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				BE244C722400E9E700EC1E87 /* Core */,
+				BE53ED672400E97900445FC2 /* AppDelegate.h */,
+				BE53ED682400E97900445FC2 /* AppDelegate.m */,
+				BE53ED6A2400E97900445FC2 /* ViewController.h */,
+				BE53ED6B2400E97900445FC2 /* ViewController.m */,
+				BE53ED6D2400E97900445FC2 /* Main.storyboard */,
+				BE53ED702400E97A00445FC2 /* Assets.xcassets */,
+				BE53ED722400E97A00445FC2 /* LaunchScreen.storyboard */,
+				BE53ED752400E97A00445FC2 /* Info.plist */,
+				BE53ED762400E97A00445FC2 /* main.m */,
+			);
+			path = BNPropertyAnimator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE53ED632400E97900445FC2 /* BNPropertyAnimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE53ED7A2400E97A00445FC2 /* Build configuration list for PBXNativeTarget "BNPropertyAnimator" */;
+			buildPhases = (
+				BE53ED602400E97900445FC2 /* Sources */,
+				BE53ED612400E97900445FC2 /* Frameworks */,
+				BE53ED622400E97900445FC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BNPropertyAnimator;
+			productName = BNPropertyAnimator;
+			productReference = BE53ED642400E97900445FC2 /* BNPropertyAnimator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE53ED5C2400E97900445FC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Bao Nguyen";
+				TargetAttributes = {
+					BE53ED632400E97900445FC2 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = BE53ED5F2400E97900445FC2 /* Build configuration list for PBXProject "BNPropertyAnimator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE53ED5B2400E97900445FC2;
+			productRefGroup = BE53ED652400E97900445FC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE53ED632400E97900445FC2 /* BNPropertyAnimator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE53ED622400E97900445FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE53ED742400E97A00445FC2 /* LaunchScreen.storyboard in Resources */,
+				BE53ED712400E97A00445FC2 /* Assets.xcassets in Resources */,
+				BE53ED6F2400E97900445FC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE53ED602400E97900445FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE244C8C2400E9E700EC1E87 /* BNAnimationActionGroup.m in Sources */,
+				BE53ED6C2400E97900445FC2 /* ViewController.m in Sources */,
+				BE53ED772400E97A00445FC2 /* main.m in Sources */,
+				BE244C872400E9E700EC1E87 /* CALayer+BNPropertyAnimator.m in Sources */,
+				BE244C8E2400E9E700EC1E87 /* BNPropertyAnimator.m in Sources */,
+				BE53ED692400E97900445FC2 /* AppDelegate.m in Sources */,
+				BE244C8B2400E9E700EC1E87 /* BNAnimationAction.m in Sources */,
+				BE244C892400E9E700EC1E87 /* BNTransaction.m in Sources */,
+				BE244C8A2400E9E700EC1E87 /* BNTimingParameters.m in Sources */,
+				BE244C8D2400E9E700EC1E87 /* BNAdditiveAnimationAction.m in Sources */,
+				BE244C882400E9E700EC1E87 /* BNUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE53ED6D2400E97900445FC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE53ED6E2400E97900445FC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE53ED722400E97A00445FC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE53ED732400E97A00445FC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE53ED782400E97A00445FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE53ED792400E97A00445FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE53ED7B2400E97A00445FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BNPropertyAnimator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baonguyen.BNPropertyAnimator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE53ED7C2400E97A00445FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BNPropertyAnimator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baonguyen.BNPropertyAnimator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE53ED5F2400E97900445FC2 /* Build configuration list for PBXProject "BNPropertyAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE53ED782400E97A00445FC2 /* Debug */,
+				BE53ED792400E97A00445FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE53ED7A2400E97A00445FC2 /* Build configuration list for PBXNativeTarget "BNPropertyAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE53ED7B2400E97A00445FC2 /* Debug */,
+				BE53ED7C2400E97A00445FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE53ED5C2400E97900445FC2 /* Project object */;
+}
